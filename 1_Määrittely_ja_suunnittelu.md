@@ -1,6 +1,6 @@
 # Projektin vaihe 1 - Määrittely ja suunnittelu
 
-Projektissa tehdään web-sovellus: Vieraskirja. Vieraskirja on "Maija Meikäläisen" 30-v synttärivieraille tarkoitettu. Synttärivieraat voivat jättää vieraskirjaan nimensä ja terveisensä synttärisankarille. Synttäreillä on kannetttava
+Projektissa tehdään web-sovellus: Vieraskirja. Vieraskirja on "Maija Meikäläisen" 30-v synttärivieraille tarkoitettu. Synttärivieraat voivat jättää vieraskirjaan nimensä ja terveisensä synttärisankarille. Synttäreillä on kannettava
 tietokone, jolla synttärivieraiden on mahdollista päästä vuorollaan täyttämään terveisensä. Vaihtoehtoisesti voi käyttää omaa puhelinta.
 
 ## 1. Käyttäjäpersoonat
