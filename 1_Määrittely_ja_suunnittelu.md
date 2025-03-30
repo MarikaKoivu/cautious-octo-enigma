@@ -44,7 +44,10 @@ Käyttötapaus 7: Maija Meikäläinen pystyy lataamaan kaikki terveiset omalle t
 
 ## 3. Käyttöliittymän prototyypit
 
-Add something
+ ![image](https://github.com/user-attachments/assets/05d2d415-1827-4c89-b55b-c4ac7aab47c4)
+
+ Proto: Ylhäällä ensin kuva synttärisankarista jonka alla teksti "Vieraskirja". Jonka alla teksti: "Terveiset synttärisankarille" ja viestilaatikko, jossa täyttökentät: nimi, viesti ja napit: "Lähetä" ja "Tyhjennä" lisäksi mahdollisuus lisätä emojeja, tarroja ja vaihtaa taustaväriä. Laatikon alla teksti: "Aikaisemmat terveiset" ja siitä alkaa muiden jättämät viestiterveiset, joita pääsee selaamaan sivupalkilla ylös/alas. 
+
 
 ## 4. Tietoarkkitehtuuri ja tekninen suunnittelu
 
