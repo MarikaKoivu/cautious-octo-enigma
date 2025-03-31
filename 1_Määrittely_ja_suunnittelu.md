@@ -51,8 +51,51 @@ Käyttötapaus 7: Maija Meikäläinen pystyy lataamaan kaikki terveiset omalle t
 
 ## 4. Tietoarkkitehtuuri ja tekninen suunnittelu
 
-Add something
+Alustava kansiorakenne
+
+ ![image](https://github.com/user-attachments/assets/6b0fb4e6-5bda-4120-8d6d-b88813c12cbd)
+
+
+Teknologiat
+
+Frontend = React = näyttää käyttöliittymän, jossa vastaanottaa tiedot ja välittää ne eteenpäin. Vieraskirjassa: näyttää otsikon, kuvan, viestilomakkeen, viestilistan, sivupalkin. Tekee pyynnöt: lähettää tai vastaanottaa tietoja ja reagoi siis käyttäjän toimiin: kun käyttäjä kirjoittaa vieraskirjaan(täyttää lomaketta), painaa nappeja: emoji, tarra, tausta, lähetä, tyhjennä, nimikenttä, viestikenttä, kun käyttäjä selaa sivupalkilla sivun viestejä..) Käyttää fetch/axios pyyntöjä lähettääkseen tiedot backendille.
+
+Backend = Node.js + express. = Ottavat pyynnön vastaan reactilta ja lähettää tai vastaanottaa ne, tarkistaa tiedot, tallentaa tai hakee ne tietokannasta.
+
+Tietokanta = SQLite (sqlite3 -kirjasto) = tallentaa tiedot: id, nimi, terveiset, aikaleima, koko viesti.
+
+
+__________________________________________________________________________________________
+Sovellus käyttää http protokollaa. RESTful API käyttää http:tä:
+HTTP metodeilla toteutetut CRUD toiminnot:
+
+CREATE = POST = lisää uuden viestin tietokantaan
+
+READ = GET = hakee pyydettäessä tietokannasta tiedot, kaikki viestit, esim avatessa selaimella sivuston
+
+UPDATE = PUT = päivittää tietokantaa, kun sinne lisätään uusi viesti tai sieltä poistetaan viesti
+
+DELETE = DELETE = pyyntö viestin poistamiseksi tietokannasta(ainoastaan ylläpitäjä)
+
+
+
+
 
 ## 5. Projektinhallinta ja käyttäjätestaus
 
-Add something
+Projektin aikataulu:
+
+1 viikko: Projektin suunnittelua ja hahmottelua. Päätetään projektin aihe ja käytettävät teknologiat. Suunnitellaan käyttöliittymä, mietitään käyttäjäpersoonat ja käyttötapaukset. Tietokannan valinta. Suunnitellaan frontendin runkoa ja käyttöliittymän komponentteja, Aikataulutetaan projekti ja tehdään testaussuunnitelma. Githubiin repon luonti ja liittäminen visual studio codeen. Githubiin lokikirjan teon aloitus ja projektin raportin aloitusta.
+
+2 viikko: Visual studio codella työskentelyä, aloitetaan kansiorakennetta. Päätetään käytettävä ympäristö: pilvipalvelu, paikallinen vai virtuaalikone. Taustajärjestelmien ja käyttöliittymäympäristöjen & tietokannan asennus ja käyttöönotto. 
+
+3 viikko: Jatketaan vielä Taustajärjestelmien kanssa.. API yhteydet, express yms.
+
+4 viikko: Viimeistellään työ, testataan toimivuus. Dokumentoinnin viimeistely.
+
+5 viikko: Projektin esittely ja palautus. 
+
+Itsellä käytössä oman aikataulun seuraamiseksi trello -projektinhallintatyökalu. Versionhallintatyökaluna GitHub, jonne dokumentoidaan ja tehdään lokikirjaa projektista: logbook.md. Markdown tiedostomuotoon projektin palautettava dokumentti kokonaisuudessaan. 
+
+
+-aikataulua ja missä vaiheessa testataan – ja mitä testejä
