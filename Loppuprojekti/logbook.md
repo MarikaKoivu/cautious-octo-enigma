@@ -1,6 +1,5 @@
 # Logbook
 
-esim. 21.10.2024, 2h, Cisco Introduction to Cybersecurity → Chapter 2, Quiz done
 
 | Päivä  | Tuntimäärä | Tehtäviä | Aiheita |
 | :---         |    :---:    |    :---:    |    :---:    |
