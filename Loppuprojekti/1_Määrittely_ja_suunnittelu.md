@@ -97,5 +97,25 @@ Projektin aikataulu:
 
 Itsellä käytössä oman aikataulun seuraamiseksi trello -projektinhallintatyökalu. Versionhallintatyökaluna GitHub, jonne dokumentoidaan ja tehdään lokikirjaa projektista: logbook.md. Markdown tiedostomuotoon projektin palautettava dokumentti kokonaisuudessaan. 
 
+___________________________________________________________________________________________________________
+TESTAUS
 
--aikataulua ja missä vaiheessa testataan – ja mitä testejä -muoks
+Testauksia on hyvä tehdä jo projektin aikana, jotta virheet huomataan ajoissa. On hyvä testata sovelluksen luotettavuutta toiminnan kannalta ja suorituskykyä, että se kestää suuret käyttäjämäärät. Testeissä tulen käyttämään dynaamisia & automaattisia testausmenetelmiä. Tarkoittaa, että testit suoritetaan siihen sopivilla työkaluilla ja testikirjastoilla ilman että ihminen on konkreettisesti niitä testaamassa. Käytettävyyden ja käyttöliittymän testaukset suoritetaan manuaalisesti.
+______________________________________________________________________________
+
+MANUAALISET TESTIT:
+
+Frontend testausta viikolla 3: Testataan lomakkeen täyttöä ja lähetystä. Testataan miltä käyttöliittymä näyttää: näkyykö viestilista & muut komponentit oikein. 
+
+Backend testausta viikolla 3: API rajapintojen testausta: pyyntöjen käsittelyä.
+
+Tietokantatestausta viikolla 3 tai 4: Tallentaako tietokanta tiedot oikein: nimi, viesti, aikaleima. 
+_____________________________________________________________________________
+Yksikkötestaus: Testataan yksittäisten komponenttien toimintaa Vitest -työkalulla. Komponenttien yksikkötestausta voi tehdä heti ne luotua, viikolla 2.
+
+E2E testausmenetelmä: Sovellus testataan asiakkaan näkökulmasta. Testataan, että sovellus toimii, kun asiakas sitä käyttää. Tehdään viikolla 2/3.
+
+Kuormitustestausta k6-työkalulla viikolla 4: testissä tehdään testitiedosto, joka testaa useiden kymmenten käyttäjien yhtäaikaista kuormitusta sivustolla, esimerkiksi pyyntöjä useilta kymmeniltä käyttäjiltä yhtä aikaa. Tehdään viikolla 4.
+
+Responsiivisuustesti: Testataan, että sovellus skaalautuu myös mobiililaitteelle. Käytetään Chromen kehittäjätyökalua. Suoritetaan viikolla 4.
+
