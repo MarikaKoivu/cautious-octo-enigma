@@ -98,4 +98,4 @@ Projektin aikataulu:
 Itsellä käytössä oman aikataulun seuraamiseksi trello -projektinhallintatyökalu. Versionhallintatyökaluna GitHub, jonne dokumentoidaan ja tehdään lokikirjaa projektista: logbook.md. Markdown tiedostomuotoon projektin palautettava dokumentti kokonaisuudessaan. 
 
 
--aikataulua ja missä vaiheessa testataan – ja mitä testejä
+-aikataulua ja missä vaiheessa testataan – ja mitä testejä -muoks
