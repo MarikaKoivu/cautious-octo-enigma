@@ -52,7 +52,7 @@ Koodi on jaettu komponentteihin ja moduuleihin. Kommentointia on tehty tärkeimp
 
 ## 8. Testaus
 
-Sovellusta on testattu paikallisesti eri tilanteissa, käyttöliittymä on testattu toimivaksi: nimen ja viestin lähettäminen onnistuu, emojien lisääminen onnistuu, taustavärin vaihto onnistuu, viesti näkyy listassa, viesti voidaan poistaa ja se poistuu myös tietokannasta. Käyttöliittymä näyttää hyvältä, kuvat ja tekstit ovat sopivia ja sopivassa kohdassa. Virheelliset pyynnöt palauttavat virheilmoituksen. Poistotoimintaa testattu konsoli logilla. Tarkistettu että rivit häviävät myös tietokannasta. Viestikentän tyhjentäminen onnistuu. Skaalautuvuus on testattu manuaalisesti kehittäjän työkaluilla: skaalautuu mobiiliversioon. Tarkoitus vielä tehdä dynaamista testausta ihan projektin loppuvaiheessa.
+Sovellusta on testattu paikallisesti eri tilanteissa, käyttöliittymä on testattu toimivaksi: nimen ja viestin lähettäminen onnistuu, emojien lisääminen onnistuu, taustavärin vaihto onnistuu, viesti näkyy listassa, viesti voidaan poistaa ja se poistuu myös tietokannasta. Käyttöliittymä näyttää hyvältä, kuvat ja tekstit ovat sopivia ja sopivassa kohdassa. Virheelliset pyynnöt palauttavat virheilmoituksen. Poistotoimintaa testattu konsoli logilla. Tarkistettu että rivit häviävät myös tietokannasta. Viestikentän tyhjentäminen onnistuu. Skaalautuvuus on testattu manuaalisesti kehittäjän työkaluilla: skaalautuu mobiiliversioon. Tarkoitus vielä tehdä dynaamista testausta ihan projektin loppuvaiheessa. 
 
 
 ## 9. Käyttöliittymä ja vuorovaikutus
