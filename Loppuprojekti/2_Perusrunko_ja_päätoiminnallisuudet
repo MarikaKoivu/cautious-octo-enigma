@@ -1,9 +1,5 @@
 # Prokti vaihe 2 - Perusrunko ja päätoiminnallisuudet
 
-Tässä vaiheessa projektista on toteutettu toimiva vieraskirjasovelluksen perusversio, 
-joka toimii paikallisesti Node.js-ympäristössä. Sovellus mahdollistaa tervehdyksen kirjoittamisen, 
-sen tallentamisen tietokantaan sekä viestien selaamisen ja poistamisen. 
-Kaikki toiminnot on yhdistetty selkeästi frontendin, backendin ja tietokannan kesken.
 
 ## 1. Ympäristö
 
