@@ -23,7 +23,7 @@ Komponentti listaa viestit niin että uusin on ylimmäisenä. Viestissä näytet
 
 ## 4. Tietokanta
 
-Tietokantana toimii SQLite, joka säilyttää viestit database.sqlite-tiedostossa. Taulu messages sisältää sarakkeet: id, name, message ja timestamp. Viestien lisääminen, hakeminen ja poistaminen tapahtuvat parametrisoiduilla SQL-lauseilla.
+Tietokantana toimii SQLite, joka säilyttää viestit database.sqlite-tiedostossa. Taulu messages sisältää sarakkeet: id, name, message ja timestamp.
 
 
 ## 5. Perusrakenne ja arkkitehtuuri
