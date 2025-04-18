@@ -13,7 +13,11 @@ Backend on toteutettu Node.js:n ja Express-kirjaston avulla. Palvelin tarjoaa RE
 
 ## 3. Frontend
 
-Frontend on toteutettu Reactilla. Käyttöliittymässä käyttäjä voi kirjoittaa nimen ja viestin, valita taustavärin, lisätä emojin ja lähettää viestin. Lisäksi käyttöliittymä näyttää aiemmat viestit sekä tarjoaa mahdollisuuden poistaa yksittäinen viesti. Viestejä pystyy selaamaan alaspäin. React-komponentteja käytetään viestilistan ja viestilomakkeen hallintaan.
+Frontend on toteutettu Reactilla. Käyttöliittymässä käyttäjä voi kirjoittaa nimen ja viestin, valita taustavärin, lisätä emojin ja lähettää viestin. Lisäksi käyttöliittymä näyttää aiemmat viestit sekä tarjoaa mahdollisuuden poistaa yksittäinen viesti. Viestejä pystyy selaamaan alaspäin. React-komponentteja käytetään viestilistan ja viestilomakkeen hallintaan. Sovellus sisältää kaksi komponenttia. MessageForm.sx vastaa vieraskirjan viestien lähettämisestä ja kirjoittamisesta. Se sisältää lomakkeen, johon käyttäjä syöttää oman nimensä ja viestinsä/tervehdyksensä. Lomakkeessa pystyy myös valitsemaan emojeja, taustavärin, tyhjentämään lomakkeen ja lähettämään sen. Komponentti lähettää viestin backendille POST pyynnöllä kun käyttäjä painaa "lähetä" painiketta. Viestilista päivittyy automaattisesti.
+
+Toinen komponentti: MessageList.jsx hakee vieraskirjan viestit ja näyttää ne käyttäjälle. Komponentti hakee viestit backendiltä GET pyynnöllä ja päivittää näkymän.
+Komponentti listaa viestit niin että uusin on ylimmäisenä. Viestissä näytetään lähettäjän nimi, viestin sisältö sekä aikaleima. Lisäksi viestissä on "poista" painike. Poisto tapahtuu delete pyynnöllä backendille.
+
 
 ## 4. Tietokanta
 
