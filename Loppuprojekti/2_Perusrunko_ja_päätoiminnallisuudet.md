@@ -1,6 +1,6 @@
 # Projekti vaihe 2 - Perusrunko ja päätoiminnallisuudet
 
-Tässä vaiheessa projektista on toteutettu toimiva 30-v synttäreiden vieraskirjan perus sovellusversio, joka toimii paikallisesti Node.js-ympäristössä. Sovellus mahdollistaa synttäritervehdyksen kirjoittamisen, kentän tyhjentämisen, tervehdyksen tallentamisen tietokantaan sekä viestien selaamisen ja poistamisen. Kaikki toiminnot on yhdistetty frontendin, backendin ja tietokannan kesken.
+Tässä vaiheessa projektista on toteutettu toimiva 30-v synttäreiden vieraskirjan perus sovellusversio, joka toimii paikallisesti Node.js-ympäristössä. Sovellus mahdollistaa synttäritervehdyksen kirjoittamisen, kentän tyhjentämisen, tervehdyksen tallentamisen tietokantaan sekä viestien selaamisen ja poistamisen. Kaikki toiminnot on yhdistetty frontendiä, backendiä ja tietokantaa käyttäen.
 
 
 ## 1. Ympäristö
