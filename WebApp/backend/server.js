@@ -1,26 +1,33 @@
-// server.js
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const path = require('path');
+
+// ✅ Tuodaan SQLite-tietokannan toiminnot
+const { getAllMessages, addMessage } = require('./models/messageModel');
 
 const app = express();
 const PORT = 3001;
 
-// Ota käyttöön CORS ja JSON-datan käsittely
+// ✅ Middleware
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use(express.static('public'));
+// ✅ Staattisten tiedostojen tarjoaminen (esim. kuvat tai HTML)
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Väliaikainen "tietokanta" muistissa
-let messages = [];
-
-// Reitti: hae kaikki viestit
+// ✅ GET: Hae kaikki viestit tietokannasta
 app.get('/api/messages', (req, res) => {
-  res.json(messages);
+  try {
+    const messages = getAllMessages();
+    res.json(messages);
+  } catch (error) {
+    console.error('Virhe viestien haussa:', error);
+    res.status(500).json({ error: 'Viestien hakeminen epäonnistui' });
+  }
 });
 
-// Reitti: lisää uusi viesti
+// ✅ POST: Lisää uusi viesti tietokantaan
 app.post('/api/messages', (req, res) => {
   const { name, message } = req.body;
 
@@ -28,19 +35,16 @@ app.post('/api/messages', (req, res) => {
     return res.status(400).json({ error: 'Nimi ja viesti vaaditaan' });
   }
 
-  const newMessage = {
-    id: Date.now(), // yksinkertainen ID
-    name,
-    message,
-    timestamp: new Date().toISOString()
-  };
-
-  messages.unshift(newMessage); // lisää viesti listan alkuun
-
-  res.status(201).json({ success: true });
+  try {
+    addMessage(name, message);
+    res.status(201).json({ success: true });
+  } catch (error) {
+    console.error('Virhe viestin tallennuksessa:', error);
+    res.status(500).json({ error: 'Viestin tallennus epäonnistui' });
+  }
 });
 
-// Käynnistä palvelin
+// ✅ Palvelimen käynnistys
 app.listen(PORT, () => {
   console.log(`🚀 Vieraskirjapalvelin käynnissä: http://localhost:${PORT}`);
 });
