@@ -1,8 +1,11 @@
-# Project phase 2 - Basic structure and main functionalities
+# Prokti vaihe 2 - Perusrunko ja päätoiminnallisuudet
 
-Add something
+Tässä vaiheessa projektista on toteutettu toimiva vieraskirjasovelluksen perusversio, 
+joka toimii paikallisesti Node.js-ympäristössä. Sovellus mahdollistaa tervehdyksen kirjoittamisen, 
+sen tallentamisen tietokantaan sekä viestien selaamisen ja poistamisen. 
+Kaikki toiminnot on yhdistetty selkeästi frontendin, backendin ja tietokannan kesken.
 
-## 1. Environment
+## 1. Ympäristö
 
 Add something
 
@@ -14,26 +17,26 @@ Add something
 
 Add something
 
-## 4. Database
+## 4. Tietokanta
 
 Add something
 
-## 5. Basic structure and architecture
+## 5. Perusrakenne ja arkkitehtuuri
 
 Add something
 
-## 6. Functionalities
+## 6. Toiminnallisuudet
 
 Add something
 
-## 7. Code quality and documentation
+## 7. Koodin laatu ja dokumentointi
 
 Add something
 
-## 8. Testing and error handling
+## 8. Testaus
 
 Add something
 
-## 9. User interface and interaction
+## 9. Käyttöliittymä ja vuorovaikutus
 
 Add something
