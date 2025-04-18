@@ -22,7 +22,11 @@ Tietokantana toimii SQLite, joka säilyttää viestit database.sqlite-tiedostoss
 
 ## 5. Perusrakenne ja arkkitehtuuri
 
-Sovelluksen perusrakenne on frontend: react, backend: node+express ja tietokanta: SQLite. Frontend lähettää HTTP-pyyntöjä backendille, joka käsittelee ne ja kommunikoi tietokannan kanssa.
+Sovelluksen perusrakenne on frontend: react, backend: node.js+express ja tietokanta: SQLite. Frontend lähettää HTTP-pyyntöjä backendille, joka käsittelee ne ja kommunikoi tietokannan kanssa.
+
+
+![image](https://github.com/user-attachments/assets/78b9e9e4-461c-4487-afa4-b1cc46ad1d89)
+
 
 ## 6. Toiminnallisuudet
 
