@@ -3,7 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const path = require('path');
 
-// ✅ Tuodaan SQLite-toiminnot
+// Tuodaan SQLite-toiminnot
 const { getAllMessages, addMessage, deleteMessage } = require('./models/messageModel');
 
 const app = express();
@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// ✅ GET: Hae kaikki viestit
+//  GET: Hae kaikki viestit
 app.get('/api/messages', (req, res) => {
   try {
     const messages = getAllMessages();
@@ -24,7 +24,7 @@ app.get('/api/messages', (req, res) => {
   }
 });
 
-// ✅ POST: Lisää uusi viesti
+// POST: Lisää uusi viesti
 app.post('/api/messages', (req, res) => {
   const { name, message } = req.body;
 
@@ -41,7 +41,7 @@ app.post('/api/messages', (req, res) => {
   }
 });
 
-// 🆕 DELETE: Poista viesti ID:n perusteella
+//  DELETE: Poista viesti ID:n perusteella
 app.delete('/api/messages/:id', (req, res) => {
   const { id } = req.params;
   const numericId = Number(id);
@@ -62,7 +62,7 @@ app.delete('/api/messages/:id', (req, res) => {
   }
 });
 
-// ✅ Palvelimen käynnistys
+//  Palvelimen käynnistys
 app.listen(PORT, () => {
   console.log(`🚀 Vieraskirjapalvelin käynnissä: http://localhost:${PORT}`);
 });

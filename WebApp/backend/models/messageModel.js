@@ -28,7 +28,7 @@ function addMessage(name, message) {
   stmt.run(name, message, timestamp);
 }
 
-// 🆕 Poista viesti ID:n perusteella ja palauta tulos
+// Poista viesti ID:n perusteella ja palauta tulos
 function deleteMessage(id) {
   const stmt = db.prepare('DELETE FROM messages WHERE id = ?');
   return stmt.run(id); // 🧾 Palauttaa .changes arvon server.js:lle

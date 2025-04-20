@@ -9,7 +9,7 @@ function MessageList() {
     setMessages(data);
   };
 
-  // 🆕 Poista viesti palvelimelta
+  //  Poista viesti palvelimelta
   const deleteMessage = async (id) => {
     const res = await fetch(`http://localhost:3001/api/messages/${id}`, {
       method: 'DELETE'
@@ -36,7 +36,7 @@ function MessageList() {
           <p>{msg.message}</p>
           <small>{new Date(msg.timestamp).toLocaleString()}</small>
 
-          {/* 🆕 Poista-nappi */}
+          {/*  Poista-nappi */}
           <button onClick={() => deleteMessage(msg.id)} style={{
             marginTop: '5px',
             padding: '4px 8px',
