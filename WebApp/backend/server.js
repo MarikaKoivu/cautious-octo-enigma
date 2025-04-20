@@ -66,3 +66,5 @@ app.delete('/api/messages/:id', (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Vieraskirjapalvelin käynnissä: http://localhost:${PORT}`);
 });
+
+//node server.js
