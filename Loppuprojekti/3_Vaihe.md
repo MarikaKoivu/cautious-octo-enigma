@@ -3,7 +3,7 @@
 ##   Valittu käyttötapaus tai parannettava ominaisuus
 
 _Minkä käyttötapauksen tai sovelluksen osa-alueen valitsit parannettavaksi tai laajennettavaksi? Kuvaile sitä lyhyesti ja selitä, miksi valitsit juuri sen._
-3 vaiheessa sovellusta parannettiin vielä viemällä se pilviympäristöön. Lisäksi tehtiin lisätestejä.
+3 vaiheessa sovellusta parannettiin vielä viemällä se virtuaalikoneelle. Lisäksi tehtiin lisätestejä.
 
 
 
