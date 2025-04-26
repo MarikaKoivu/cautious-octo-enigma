@@ -1,5 +1,5 @@
 Vaihe 4 – Projektin esittely
-Muistiinpano
+
 
 Ajattele tätä projektisi esittelynä, jonka voit sisällyttää työhakemukseesi. Esityksen tulee olla selkeä ja ytimekäs. Selitä koko projekti. Älä pelkää korostaa 
 epäonnistumisia, sillä jokainen on kokenut ne jossain vaiheessa. Ota huomioon, että katsojalla ei välttämättä ole vahvaa teknistä taustaa.
@@ -10,8 +10,8 @@ epäonnistumisia, sillä jokainen on kokenut ne jossain vaiheessa. Ota huomioon,
 
 📝 Projektin yleiskatsaus
 
-Projektissa oli tarkoituksena tehdä kuvitteelliselle henkilölle 30-v syntymäpäiväjuhlilla käytettävä vieraskirja -sovellus. Sovellusta pystyisi käyttää
-tietokoneen ja puhelimen selaimen kautta. Syntymäpäiväjuhlilla on eri-ikäistä porukkaa nuorista vanhuksiin ja tämä on huomioitu käyttöliittymän suunnittelussa.
+Projektissa oli tarkoituksena tehdä kuvitteelliselle henkilölle 30-v syntymäpäiväjuhlilla käytettävä vieraskirja -sovellus. Sovellusta pystyisi käyttämään
+tietokoneen ja puhelimen selaimen kautta. Syntymäpäiväjuhlilla on eri-ikäisiä ihmisiä lapsista vanhuksiin ja tämä on huomioitu käyttöliittymän suunnittelussa.
 
 
 📌 Käyttötapausten yhteenveto
