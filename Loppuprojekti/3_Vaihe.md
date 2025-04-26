@@ -2,7 +2,7 @@
 
 3 vaiheessa sovellusta parannettiin vielä viemällä se paikalliselle virtuaalikoneelle. Lisäksi tehtiin lisätestejä.
 
-##   Virtuaalikoneelle julkaisu
+##   Paikalliselle virtuaalikoneelle julkaisu
 
 
 
@@ -12,8 +12,9 @@
 
 ##  Testit
 
-Tehtiin yksikkötesti vitest työkalulla, joka varmistaa, että ”Lähetä”-nappi toimii eli sitä voi klikata ilman virheitä. Testi meni läpi eli komponentti toimii. 
+Tehtiin yksikkötesti vitest työkalulla, joka varmistaa, että ”Lähetä”-nappi toimii eli sitä voi klikata ilman virheitä. Testi meni läpi eli komponentti toimii: se ei kaatunut ja painikkeen klikkaaminen onnistui ilman virheitä. 
 Yksikkötestauksella pystyy testaamaan yksittäisen komponentin toimintaa varhaisessa vaiheessa, jotta siihen pystytään puuttumaan eikä se vaikuta jatkossa muiden komponenttien ja sovelluksen toimintaan, kun mahdolliset virheet korjataan varhaisessa vaiheessa.
+
 
 ![image](https://github.com/user-attachments/assets/4b111bd3-0216-4d30-85b0-37a543c39c75)
 
@@ -26,12 +27,6 @@ Kaikki vastaukset saatiin alle 500 millisekunnissa. Palvelin oli siis erittäin 
 
 
 
-
-
- 
-
-
----
 
 ##  Haasteet
 
