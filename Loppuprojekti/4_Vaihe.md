@@ -19,12 +19,12 @@ tietokoneen ja puhelimen selaimen kautta. Syntymäpäiväjuhlilla on eri-ikäisi
 
 | Käyttötapaus | Toteutus (Kyllä/Ei) | Esittely / Huomautuksia |
 |----------|----------------------|------------------------|
-| Uusin viesti tulee aina sivun yläosaan. Vanhempia viestejä pystyy katsomaan selaamalla sivua alaspäin.. | Kyllä | Demo videolla 3: kohdassa 0.00.15. |
-| Käyttäjä Lisää nimensä "Nimi" kenttään ja viestin "Viestisi" kenttään. | Kyllä | Demo videolla 3: kohdassa 0.00.23. |
-| Terveiset kentässä on muokkausmahdollisuuksia: "Lisää emoji", "Valitse taustaväri" & "Lisää tarra". | Kyllä/EI | Emoji ja taustaväri toteutui. Tarra jäi pois, eikä sovellus sitä kaipaakaan. Demo videolla 3: kohdassa 0.00.32 |
-| Vieras pystyy tarvittaessa painaa "Tyhjennä" painiketta ja voi aloittaa kirjoittamisen alusta. | Kyllä | Tyhjennä painike ei toiminut taustaväriin. Demo videolla 3: kohdassa 0.00.41 |
-| Viesti lisätään vieraskirjan seinälle painikkeesta "Lisää vieraskirjaan". | Kyllä | Viesti lisättiin "Lähetä" -painikkeesta. Demo videolla 3: kohdassa 0.00.57 videolla. |
-| Sivun ylläpitäjä(Maija Meikäläinen-synttärisankari) pystyy poistamaan viestejä. | Kyllä/Ei | Viestejä pystyy poistamaan kuka tahanasa. Demo videolla 3: kohdassa 0.01.19 videolla. |
+| Uusin viesti tulee aina sivun yläosaan. Vanhempia viestejä pystyy katsomaan selaamalla sivua alaspäin.. | Kyllä | Demo videolla 2: kohdassa 0.00.15. |
+| Käyttäjä Lisää nimensä "Nimi" kenttään ja viestin "Viestisi" kenttään. | Kyllä | Demo videolla 2: kohdassa 0.00.23. |
+| Terveiset kentässä on muokkausmahdollisuuksia: "Lisää emoji", "Valitse taustaväri" & "Lisää tarra". | Kyllä/EI | Emoji ja taustaväri toteutui. Tarra jäi pois, eikä sovellus sitä kaipaakaan. Demo videolla 2: kohdassa 0.00.32 |
+| Vieras pystyy tarvittaessa painaa "Tyhjennä" painiketta ja voi aloittaa kirjoittamisen alusta. | Kyllä | Tyhjennä painike ei toiminut taustaväriin. Demo videolla 2: kohdassa 0.00.41 |
+| Viesti lisätään vieraskirjan seinälle painikkeesta "Lisää vieraskirjaan". | Kyllä | Viesti lisättiin "Lähetä" -painikkeesta. Demo videolla 2: kohdassa 0.00.57 videolla. |
+| Sivun ylläpitäjä(Maija Meikäläinen-synttärisankari) pystyy poistamaan viestejä. | Kyllä/Ei | Viestejä pystyy poistamaan kuka tahanasa. Demo videolla 2: kohdassa 0.01.19 videolla. |
 | Maija Meikäläinen pystyy lataamaan kaikki terveiset omalle tietokoneelleen. | Ei | Käyttötapaus jäi tekemättä. Mahdollinen käyttötapaus tulevaisuudessa |
 
 
@@ -71,4 +71,9 @@ Sen jälkeen rakensin backendin Expressillä, aluksi ilman viestien tallennusta.
 
 
 # Esittelyn linkki
-Lisää linkki videoesitykseen tai ilmoita, että se on esitetty livenä.
+
+Kuvasin esityksen Windowsin näyttötallennuksella. Näyttötallennus ei antanut mahdollisuutta vaihtaa näyttöä sovellusten välillä kuvauksen aikana, joten kuvasin erikseen 3 pientä klippiä. Linkit alla järjestyksessä 1, 2 & 3.
+
+https://youtu.be/uLvxu-h9JVY
+https://youtu.be/RRrH8VfVty8
+https://youtu.be/b38pE8OMeh4
