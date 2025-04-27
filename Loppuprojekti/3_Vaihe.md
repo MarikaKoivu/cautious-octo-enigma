@@ -1,4 +1,4 @@
-# Vaihe 3 – Lisäominaisuus tai parannuksia (Valinnainen)
+# Vaihe 3 – Lisäominaisuuksia/parannuksia
 
 3 vaiheessa sovellusta parannettiin vielä viemällä se paikalliselle virtuaalikoneelle. Lisäksi tehtiin lisätestejä.
 
