@@ -1,17 +1,13 @@
 Vaihe 4 – Projektin esittely
 
 
-Ajattele tätä projektisi esittelynä, jonka voit sisällyttää työhakemukseesi. Esityksen tulee olla selkeä ja ytimekäs. Selitä koko projekti. Älä pelkää korostaa 
-epäonnistumisia, sillä jokainen on kokenut ne jossain vaiheessa. Ota huomioon, että katsojalla ei välttämättä ole vahvaa teknistä taustaa.
+📌 Vieraskirja-sovellus syntymäpäiväjuhlille
 
 
-🎯 Vieraskirja -sovellus syntymäpäiväjuhlille
-
-
-📝 Projektin yleiskatsaus
+📌 Projektin yleiskatsaus
 
 Projektissa oli tarkoituksena tehdä kuvitteelliselle henkilölle 30-v syntymäpäiväjuhlilla käytettävä verkkopohjainen vieraskirja -sovellus, johon vieraat pystyvät jättämään onnitteluja ja terveisiä. Terveiset tallentuvat tietokantaan ja ovat sovelluksessa kaikkien nähtävillä. Sovellusta pystyisi käyttämään
-tietokoneen ja puhelimen selaimen kautta. Syntymäpäiväjuhlilla on eri-ikäisiä ihmisiä lapsista vanhuksiin ja tämä on huomioitu käyttöliittymän suunnittelussa.
+tietokoneen ja puhelimen selaimen kautta. Syntymäpäiväjuhlilla on eri-ikäisiä ihmisiä lapsista vanhuksiin ja tämä on huomioitu käyttöliittymän suunnittelussa: teksti ja painikkeet ovat tarpeeksi suuria, ulkoasu on selkeä ja yksinkertainen. On lisätty myös extraa: "koristeluita", joilla on hauska tehdä viestistä persoonallinen: emojit ja värit. 
 
 
 
@@ -23,7 +19,7 @@ Esimerkki: Käyttäjä kirjautuu sisään ja tekee varauksen	Kyllä	Toteutettu k
 Esimerkki: Järjestelmänvalvoja poistaa resursseja	Ei	Ei priorisoitu, mahdollinen tuleva työ.
 Lisää selitykset jokaisesta käyttötapauksesta, mukaan lukien esittelyaikaleimat, jos käytät videota.
 
-✍️ Tekninen toteutus
+📌 Tekninen toteutus
 
 Projektissa käytettävät tekniikat:
 
@@ -41,21 +37,11 @@ Käyttäjä pystyy syöttämään nimensä ja tervehdyksensä lomakkeelle. Lomak
 
 
 
-🚂 Kehitysprosessi
+🚂 Kehitysprosessi, tulevaisuus ja pohdinta
 
-Projektin alkoi miettimällä sovelluksen aihetta. Aiheen päättämisen jälkeen aloin suunnitella käyttöliittymän prototyyppiä.  alkoi tekemällä ensin frontendin lomakkeen ja viestilistan perusrungon.
-Sen jälkeen rakensin backendin Expressillä, aluksi ilman pysyvää tallennusta (viestit vain muistissa).
-Pian lisäsin SQLite-tietokannan, jotta viestit säilyivät myös palvelimen uudelleenkäynnistyksen jälkeen.
+Projektin alkoi miettimällä sovelluksen aihetta. Aiheen päättämisen jälkeen aloin suunnitella sovelluksen ominaisuuksia ja käyttäjiä. Suunnittelin sovellukselle sopivan käyttöliittymän prototyypin. Päätin ja aloin toteuttamaan teknologiaa: ensin tein frontendin lomakkeen ja viestilistan perusrungon.
+Sen jälkeen rakensin backendin Expressillä, aluksi ilman viestien tallennusta. Lisäsin sovellukseen SQLite-tietokannan, jotta viestit säilyivät myös palvelimen uudelleenkäynnistyksen jälkeen. Sovellusta testattiin projektin eri vaiheissa. Suoritettiin yksikkötestejä vite-työkalulla: testattiin painikkeen toimivuutta. Kuotmitustestausta tehtiin K6 -työkalulla: testatiin miten sovellus kestää 50 henkilön yhtäaikaisen sivun käytön. Käyttöliittymän toimivuutta ominaisuuksia testattiin manuaalisesti. Sovelluksen responsiivisuus testattiin Chromen kehittäjätyökalulla. Suurin muutos oli se, kun sovellus vietiinkin paikalliseen virtuaalikoneeseen eikä Azuren pilvipalvelussa olevaan virtuaalikoneeseen. Azuren pilviympäristö olisi ollut itselle toivottu ja tavoiteltu ympäristö. Kuitenkin muutos oli myönteinen siihen verrattuna, että aluksi sovellus toimi vain paikallisesti. Tulevaisuudessa yrittäisin vielä saada sovelluksen pilvipalveluun. Muita kehityskohteita olisi, että vain ylläpitäjä pystyisi poistamaan viestejä ja että ylläpitäjä pystyisi lataamaan viestit omalle tietokoneelle tiedostomuodossa.
 
-
-
-Testaus: yksikkötestit Vitellä + kuormitustestaus K6-työkalulla. Manuaalisia käyttöliittymän testauksia. Responsiivisuuden testaus Chromen kehittäjätyökalulla.
-
-Suurimmat muutokset liittyivät siihen, kun siirryttiin muistissa olevasta tallennuksesta oikeaan tietokantaan.
-Tee yhteenveto edistymisestäsi alusta loppuun ja mainitse tärkeimmät päätökset tai muutokset matkan varrella.
-
-☀️ Pohdinta ja tulevaisuustyö
-Mikä toimi hyvin? Mitä haasteita kohtasit? Mitä lisäisit tai parantaisit tulevaisuudessa?
 
 📊 Työaikaloki
 Voit kopioida lokikirjasta täältä.
