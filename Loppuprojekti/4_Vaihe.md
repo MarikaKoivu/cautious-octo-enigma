@@ -19,10 +19,13 @@ tietokoneen ja puhelimen selaimen kautta. Syntymäpäiväjuhlilla on eri-ikäisi
 
 | Käyttötapaus | Toteutus (Kyllä/Ei) | Esittely / Huomautuksia |
 |----------|----------------------|------------------------|
-| Käyttäjä Lisää nimensä "Nimi" kenttään ja viestin "Viestisi" kenttään. | Kyllä | Demo kohdassa 2:45 videolla. |
-| Terveiset kentässä on muokkausmahdollisuuksia: "Lisää emoji", "Valitse taustaväri" & "Lisää tarra". | Kyllä/EI | Emoji ja taustaväri toteutui. Tarra jäi pois, eikä sovellus sitä kaipaakaan. Demo kohdassa X videolla. |
-| Viesti lisätään vieraskirjan seinälle painikkeesta "Lisää vieraskirjaan". | Kyllä | Viesti lisättiin "Lähetä" -painikkeesta. Demo kohdassa 2:45 videolla. |
-| Uusin viesti tulee aina sivun yläosaan. Vanhempia viestejä pystyy katsomaan selaamalla sivua alaspäin.. | Kyllä | Demo kohdassa 2:45 videolla. |
+| Uusin viesti tulee aina sivun yläosaan. Vanhempia viestejä pystyy katsomaan selaamalla sivua alaspäin.. | Kyllä | Demo videolla 3: kohdassa 0.00.15. |
+| Käyttäjä Lisää nimensä "Nimi" kenttään ja viestin "Viestisi" kenttään. | Kyllä | Demo videolla 3: kohdassa 0.00.23. |
+| Terveiset kentässä on muokkausmahdollisuuksia: "Lisää emoji", "Valitse taustaväri" & "Lisää tarra". | Kyllä/EI | Emoji ja taustaväri toteutui. Tarra jäi pois, eikä sovellus sitä kaipaakaan. Demo videolla 3: kohdassa 0.00.32 |
+| Vieras pystyy tarvittaessa painaa "Tyhjennä" painiketta ja voi aloittaa kirjoittamisen alusta. | Kyllä | Tyhjennä painike ei toiminut taustaväriin. Demo videolla 3: kohdassa 0.00.41 |
+| Viesti lisätään vieraskirjan seinälle painikkeesta "Lisää vieraskirjaan". | Kyllä | Viesti lisättiin "Lähetä" -painikkeesta. Demo videolla 3: kohdassa 0.00.57 videolla. |
+| Sivun ylläpitäjä(Maija Meikäläinen-synttärisankari) pystyy poistamaan viestejä. | Kyllä/Ei | Viestejä pystyy poistamaan kuka tahanasa. Demo videolla 3: kohdassa 0.01.19 videolla. |
+| Maija Meikäläinen pystyy lataamaan kaikki terveiset omalle tietokoneelleen. | Ei | Käyttötapaus jäi tekemättä. Mahdollinen käyttötapaus tulevaisuudessa |
 
 
 
