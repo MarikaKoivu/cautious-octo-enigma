@@ -10,8 +10,9 @@ epäonnistumisia, sillä jokainen on kokenut ne jossain vaiheessa. Ota huomioon,
 
 📝 Projektin yleiskatsaus
 
-Projektissa oli tarkoituksena tehdä kuvitteelliselle henkilölle 30-v syntymäpäiväjuhlilla käytettävä vieraskirja -sovellus. Sovellusta pystyisi käyttämään
+Projektissa oli tarkoituksena tehdä kuvitteelliselle henkilölle 30-v syntymäpäiväjuhlilla käytettävä verkkopohjainen vieraskirja -sovellus, johon vieraat pystyvät jättämään onnitteluja ja terveisiä. Terveiset tallentuvat tietokantaan ja ovat sovelluksessa kaikkien nähtävillä. Sovellusta pystyisi käyttämään
 tietokoneen ja puhelimen selaimen kautta. Syntymäpäiväjuhlilla on eri-ikäisiä ihmisiä lapsista vanhuksiin ja tämä on huomioitu käyttöliittymän suunnittelussa.
+
 
 
 📌 Käyttötapausten yhteenveto
@@ -23,9 +24,34 @@ Esimerkki: Järjestelmänvalvoja poistaa resursseja	Ei	Ei priorisoitu, mahdollin
 Lisää selitykset jokaisesta käyttötapauksesta, mukaan lukien esittelyaikaleimat, jos käytät videota.
 
 ✍️ Tekninen toteutus
-Kuvaile käytettyjä tekniikoita, arkkitehtuuripäätöksiä ja sitä, miten keskeiset ominaisuudet toteutettiin.
+
+Projektissa käytettävät tekniikat:
+
+Frontend: React, Vite (nopea kehitysympäristö)
+Backend: Node.js + Express.js (REST API palvelu)
+Tietokanta: SQLite (helppo ja kevyt tietokanta pieneen projektiin)
+
+Frontend ja backend kommunikoivat REST API rajapinnan kautta.
+
+Lisäkirjastona better-sqlite3, joka on nopea ja yksinkertainen SQLite-kirjasto Node.js:lle.
+
+Keskeisiä ominaisuuksia:
+
+Käyttäjä pystyy syöttämään nimensä ja tervehdyksensä lomakkeelle. Lomakkeeseen pystyy valita taustavärin ja emojeita. Viestit listataan sivulle automaattisesti, ylimpänä uusin viesti. Viestin pystyy lähettämään "Lähetä" -painikkeella ja kentän voi halutessaan tyhjentää. Viestejä pystyy poistamaan "Poista" -painikkeella.
+
+
 
 🚂 Kehitysprosessi
+
+Projektin alkoi miettimällä sovelluksen aihetta. Aiheen päättämisen jälkeen aloin suunnitella käyttöliittymän prototyyppiä.  alkoi tekemällä ensin frontendin lomakkeen ja viestilistan perusrungon.
+Sen jälkeen rakensin backendin Expressillä, aluksi ilman pysyvää tallennusta (viestit vain muistissa).
+Pian lisäsin SQLite-tietokannan, jotta viestit säilyivät myös palvelimen uudelleenkäynnistyksen jälkeen.
+
+
+
+Testaus: yksikkötestit Vitellä + kuormitustestaus K6-työkalulla. Manuaalisia käyttöliittymän testauksia. Responsiivisuuden testaus Chromen kehittäjätyökalulla.
+
+Suurimmat muutokset liittyivät siihen, kun siirryttiin muistissa olevasta tallennuksesta oikeaan tietokantaan.
 Tee yhteenveto edistymisestäsi alusta loppuun ja mainitse tärkeimmät päätökset tai muutokset matkan varrella.
 
 ☀️ Pohdinta ja tulevaisuustyö
