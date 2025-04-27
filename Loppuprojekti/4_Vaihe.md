@@ -12,12 +12,14 @@ tietokoneen ja puhelimen selaimen kautta. Syntymäpäiväjuhlilla on eri-ikäisi
 
 
 📌 Käyttötapausten yhteenveto
-Linkki vaiheessa 1 määriteltyihin käyttötapauksiin.
 
-Käyttötapaus	Toteutettu (kyllä/ei)	Esittely / Huomautuksia
-Esimerkki: Käyttäjä kirjautuu sisään ja tekee varauksen	Kyllä	Toteutettu käyttämällä suojattua istuntokäsittelyä. Demo kohdassa 2:45 videolla.
-Esimerkki: Järjestelmänvalvoja poistaa resursseja	Ei	Ei priorisoitu, mahdollinen tuleva työ.
-Lisää selitykset jokaisesta käyttötapauksesta, mukaan lukien esittelyaikaleimat, jos käytät videota.
+
+| Käyttötapaus | Toteutus (Kyllä/Ei) | Esittely / Huomautuksia |
+|----------|----------------------|------------------------|
+| Esimerkki: Käyttäjä kirjautuu sisään ja tekee varauksen | Kyllä | Toteutettu käyttämällä suojattua istuntokäsittelyä. Demo kohdassa 2:45 videolla.. |
+| Esimerkki: Järjestelmänvalvoja poistaa resursseja | Ei | Ei priorisoitu, mahdollinen tuleva työ. |
+
+
 
 📌 Tekninen toteutus
 
